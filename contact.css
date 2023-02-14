@@ -19,3 +19,35 @@ nav{
     text-decoration: none;
     font-size: 20px;
   }
+
+  .info {
+    flex-basis: 40%;
+    margin-bottom: 30px;
+  }
+
+  .info section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .info section p{
+    padding: 0;
+  }
+  
+  .info section h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #18355d;
+    font-weight: 400;
+  }
+  
+  .info input, .info textarea{
+    width: 85%;
+    padding: 15px;
+    margin-bottom: 17px;
+    margin-right: 17px;
+    outline: none;
+    border: 1px solid #18355d;
+    box-sizing: border-box;
+  }
